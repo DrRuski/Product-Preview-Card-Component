@@ -3,17 +3,16 @@
 }
 
 body {
-    width: 1440px;
+    height: 100vh;
     background-color: #f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
     border-radius: 10px;
     background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     max-width: 600px;
     max-height: 600px;
     display: grid;
@@ -32,13 +31,13 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 30px;
+    padding: 35px;
     gap: 25px;
 }
 
 .price {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 h1, h2 {font-family: "Fraunces", sans-serif;}
@@ -51,13 +50,14 @@ h2 {color: #3D8168;font-size: 2rem; font-weight: 700;}
 
 h3 {font-weight: 500;letter-spacing: 3px;font-size: 0.7rem;opacity: 0.5; }
 
-h4 {font-weight: 400;text-decoration: line-through; opacity: 0.4;font-size: 0.8rem;}
+h4 {font-weight: 400;text-decoration: line-through; opacity: 0.4;font-size: 1rem;}
 
 p {font-size: 0.9rem; font-weight: 500;opacity: 0.6; line-height: 1.6rem;}
 
 
 a {
     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     font-size: 0.8rem;
     align-self: center;
     color: #fff;
