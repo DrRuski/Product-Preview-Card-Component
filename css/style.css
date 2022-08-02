@@ -37,8 +37,7 @@ img {
 
 .price {
     display: flex;
-    gap: 50px;
-}
+    gap: 50px;}
 
 h1, h2 {font-family: "Fraunces", sans-serif;}
 
